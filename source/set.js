@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * @param {Object} object
- * @param {string} key
- * @param {Object} value
+ * @param   {Object} object
+ * @param   {String} key
+ * @param   {Object} value
  * @returns {Object}
  */
 const set = (object, key, value) => {
@@ -12,9 +12,9 @@ const set = (object, key, value) => {
 };
 
 /**
- * @param {Object}   object
- * @param {String[]} keys
- * @param {Object}   value
+ * @param   {Object}   object
+ * @param   {String[]} keys
+ * @param   {Object}   value
  * @returns {Object}
  */
 const setByKeys = (object, keys, value) => {
