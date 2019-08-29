@@ -26,6 +26,10 @@ const setByKeys = (object, keys, value) => {
         object[firstKey] = value;
         return object;
     }
-    object[firstKey] = setByKeys(object[firstKey] ? object[firstKey] : {}, keys.slice(1), value);
+    object[firstKey] = setByKeys(
+        object[firstKey] ? object[firstKey] : {},
+        keys.slice(1),
+        value
+    );
     return object;
 };
